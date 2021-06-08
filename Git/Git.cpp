@@ -1,9 +1,12 @@
 ﻿#include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "My name is Denis!\n";
+    string name = "";
+    cout << "Hello World!\n";
+    cout << "My name is Denis!\n";
+    cin >> name;
 }
